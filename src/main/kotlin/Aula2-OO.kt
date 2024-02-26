@@ -54,7 +54,7 @@ open class Animal(var idade: Int) {
 
 class Cachorro(idade: Int) : Animal(idade) {
     override var nome: String = ""
-        get() = "$field"
+        get() = field
         set(valor) {
             field = valor
         }
